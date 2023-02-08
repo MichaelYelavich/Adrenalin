@@ -1,8 +1,8 @@
 
 {
-  "name": "decky-plugin-template",
+  "name": "Adrenalin",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "ADRENALIN is a pure performance and optimization tool for the AMD Aerith based Steam Deck.",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
@@ -10,21 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
+    "url": "git+https://github.com/MichaelYelavich/Adrenalin.git"
   },
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
+    "tool",
     "steam-deck",
     "deck"
   ],
-  "author": "Jonas Dellinger <jonas@dellinger.dev>",
-  "license": "BSD-3-Clause",
+  "author": "Michael Yelavich <Joe.Biden@WhiteHouse.gov>",
+  "license": " DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/MichaelYelavich/Adrenalin/issues"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/MichaelYelavich/Adrenalin",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-json": "^4.1.0",
