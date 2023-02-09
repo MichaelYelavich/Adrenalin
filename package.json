@@ -1,6 +1,4 @@
-
-{
-  "name": "Adrenalin",
+"name": "Adrenalin",
   "version": "0.0.1",
   "description": "ADRENALIN is a pure performance and optimization tool for the AMD Aerith based Steam Deck.",
   "scripts": {
