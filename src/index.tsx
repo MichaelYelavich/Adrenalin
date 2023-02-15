@@ -4,6 +4,7 @@ import {
   DialogButton,
   Menu,
   MenuItem,
+  Navigation,
   PanelSection,
   PanelSectionRow,
   Router,
@@ -82,7 +83,7 @@ const DeckyPluginRouterTest: VFC = () => {
   return (
     <div style={{ marginTop: "50px", color: "white" }}>
       Hello World!
-      <DialogButton onClick={() => Router.NavigateToLibraryTab()}>
+      <DialogButton onClick={() => Navigation.NavigateToLibraryTab()}>  //replaced router with nav fuck you npm
         Go to Library
       </DialogButton>
     </div>
